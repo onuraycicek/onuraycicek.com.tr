@@ -19,7 +19,7 @@
           <template v-if="skillsAndProjectItemName=='skills'">
            	<div v-for="(skill,skillName) in skillsAndProjectItem.content" :key="skillName" class="skills-group">
 	            <skills-item v-for="(skillContent,skillContentName) in skill" 
-              :key="skillContentName" :name="skillContentName" 
+              :key="skillContentName" :name="skillContent.name?skillContent.name:skillContentName" 
               :dark="skillContent.dark"
               :img="skillContent.img"></skills-item>
             </div>
@@ -94,6 +94,7 @@ export default {
               img:"heroku.png",
             },
             Google_Cloud_Run:{
+              name:"Google<br>Cloud Run",
               img:"google-cloud-run.png",
             },
             Vercel:{
@@ -101,6 +102,7 @@ export default {
               dark:true,
             },
             Github_Pages:{
+              name:"Github<br>Pages",
               img:"github-pages.png",
             },
             Server:{

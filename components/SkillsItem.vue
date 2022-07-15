@@ -3,7 +3,8 @@
 				<img 
               :class="dark?'bg-white':''"
 				:src="'../assets/'+img" alt="html" title="html">
-				{{name.includes("_")?name.replace(/_/g," "):name}}
+				<span v-html="nameManipulation()">
+				</span>
 	</div>
 </template>
 <script>
@@ -18,6 +19,14 @@ export default {
 		dark:{
 			type:Boolean
 		}
-	}
+	},
+	methods: {
+		changeUnderlineToSpace(name){
+			return name.includes("_")?name.replace(/_/g," "):name;
+		},
+		nameManipulation(){
+			return this.changeUnderlineToSpace(this.name);
+		}
+	},
 }
 </script>
