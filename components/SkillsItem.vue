@@ -3,8 +3,7 @@
 				<img 
               :class="dark?'bg-white':''"
 				:src="'../assets/'+img" alt="html" title="html">
-				{{name}}
-				<!-- {{name.includes("_")?name.replaceAll("_"," "):name}} -->
+				{{name.includes("_")?name.replace(/_/g," "):name}}
 	</div>
 </template>
 <script>
