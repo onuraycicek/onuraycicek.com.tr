@@ -27,7 +27,9 @@
           <template v-else>
             <projects-item v-for="(project,projectName) in skillsAndProjectItem.content" :key="projectName"
             :dark="project.dark"
-            :img="project.img" :title="project.title"></projects-item>
+            :img="project.img"
+            :url="project.url"
+             :title="project.title"></projects-item>
           </template>
 				
 			</div>
@@ -49,7 +51,7 @@ export default {
     return {
       title:"WEB GELİŞTİRİCİSİ",
       description:"Sektörde 5 yıllık deneyime sahibim. HTML, CSS, SCSS, JS, NodeJS, VueJS, PHP ve Python dil/frameworklerine hakimim. Mysql, MongoDB ve Redis ile çalışma yaptım. Daha önceki projelerimde Google Cloud Run, Heroku, Vercel, Github Pages ve özel sunucu ortamlarına deployment gerçekleştirdim. RabbitMQ deneyimim mevcuttur. Ci/cd olarak Circleci kullandım.<br/><br/>Kozmonos.com ve Dijitalinmerkezi.com sitelerinin sahibiyim.",
-    skillsAndProjects:{
+      skillsAndProjects:{
         skills:{
             info:{
               title:"Deneyimler",
@@ -120,24 +122,28 @@ export default {
         },
       },
       projects:{
-         info:{
-        title:"Projeler",
-      },
+        info:{
+          title:"Projeler",
+        },
         content:[
-        {
-          img:"https://www.kozmonos.com/android-chrome-512x512.png",
-          title:"Kozmonos"
-        },
-         {
-          img:"https://www.kozmonos.com/android-chrome-512x512.png",
-          title:"Kozmonos Github"
-        },
-         {
-          img:"./assets/logo.svg",
-          title:"Onur Ayçiçek Github",
-          dark:true
-        }
-      ]},
+          {
+            img:"https://www.kozmonos.com/android-chrome-512x512.png",
+            title:"Kozmonos",
+            url:"https://kozmonos.com",
+          },
+          {
+            img:"https://www.kozmonos.com/android-chrome-512x512.png",
+            title:"Kozmonos Github",
+            url:"https://github.com/kozmonos"
+          },
+          {
+            img:"./assets/logo.svg",
+            title:"Onur Ayçiçek Github",
+            url:"https://github.com/onuraycicek",
+            dark:true
+          }
+        ]
+      },
     },
       socialMedias:{
           Twitter:{
