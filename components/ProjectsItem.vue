@@ -1,5 +1,5 @@
 <template>
-	<a href="https://kozmonos.com" class="project">
+	<a :href="url" class="project">
 					<img :class="dark?'black-bg':''" :src="img" :alt="title" :title="title">
 					<div class="projects-hover-item"></div>
 					{{title}}
@@ -16,6 +16,9 @@ export default {
 		},
 		dark:{
 			type:Boolean
+		},
+		url:{
+			type:String
 		}
 	}
 }
