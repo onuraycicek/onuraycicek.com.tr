@@ -11,7 +11,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Sektörde 5 yıllık deneyime sahibim. HTML, CSS, SCSS, JS, NodeJS, VueJS, PHP ve Python dil/frameworklerine hakimim. Mysql, MongoDB ve Redis ile çalışma yaptım. Daha önceki projelerimde Google Cloud Run, Heroku, Vercel, Github Pages ve özel sunucu ortamlarına deployment gerçekleştirdim. RabbitMQ deneyimim mevcuttur. Ci/cd olarak Circleci kullandım.' },
+      { hid: 'description', name: 'description', content: 'Sektörde 5 yıllık deneyime sahibim. HTML, CSS, SCSS, JS, NodeJS, VueJS, PHP ve Python dil/frameworklerine hakimim. Mysql, MongoDB ve Redis ile çalışma yaptım. Daha önceki projelerimde Google Cloud Run, Heroku, Vercel, Github Pages ve özel sunucu ortamlarına deployment gerçekleştirdim. RabbitMQ deneyimim mevcut. Ci/cd süreçleri için aktif olarak Circleci kullanıyorum. Git komutlarına hakimim. Mikroservis mimarisi hakkında deneyim sahibiyim. Rest api ile aktif geliştirdiğim uygulamalar mevcut.' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
