@@ -7,9 +7,10 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy":"custom-command github/push"
+    "deploy": "custom-command github/push"
   },
   "dependencies": {
+    "@nuxtjs/yandex-metrika": "^1.4.0",
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7"
   },
