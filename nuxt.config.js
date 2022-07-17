@@ -38,8 +38,11 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/yandex-metrika'
+    '@nuxtjs/gtm'
   ],
-
+  gtm: {
+    id: 'GTM-553N4XH'
+  },
   yandexMetrika: {
     id: '89591493',
     webvisor: true,
