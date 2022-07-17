@@ -37,7 +37,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/yandex-metrika'
+    '@nuxtjs/yandex-metrika',
     '@nuxtjs/gtm'
   ],
   gtm: {
