@@ -50,7 +50,7 @@ export default {
   data() {
     return {
       title:"WEB GELİŞTİRİCİSİ",
-      description:"Sektörde 5 yıllık deneyime sahibim. HTML, CSS, SCSS, JS, NodeJS, VueJS, PHP ve Python dil/frameworklerine hakimim. Mysql, MongoDB ve Redis ile çalışma yaptım. Daha önceki projelerimde Google Cloud Run, Heroku, Vercel, Github Pages ve özel sunucu ortamlarına deployment gerçekleştirdim. RabbitMQ deneyimim mevcut. Ci/cd süreçleri için aktif olarak Circleci kullanıyorum. Git komutlarına hakimim. Mikroservis mimarisi hakkında deneyim sahibiyim. Rest api ile aktif geliştirdiğim uygulamalar mevcut.<br><br>Kozmonos.com ve Dijitalinmerkezi.com sitelerinin sahibiyim.",
+      description:"Sektörde 5 yıllık deneyime sahibim. HTML, CSS, SCSS, JS, NodeJS, VueJS, PHP ve Python dil/frameworklerine hakimim. Mysql, MongoDB ve Redis ile çalışma yaptım. Daha önceki projelerimde Google Cloud Run, Heroku, Vercel, Github Pages ve özel sunucu ortamlarına deployment gerçekleştirdim. RabbitMQ deneyimim mevcut. Ci/cd süreçleri için aktif olarak Circleci, Unit testler için Mocha kullanıyorum. Git komutlarına hakimim. Mikroservis mimarisi hakkında deneyim sahibiyim. Rest api ile aktif geliştirdiğim uygulamalar mevcut.<br><br>Kozmonos.com ve Dijitalinmerkezi.com sitelerinin sahibiyim.",
       skillsAndProjects:{
         skills:{
             info:{
@@ -121,11 +121,12 @@ export default {
               },
           },
           Modern_Web_Technologies:{
-            
-                Git:{
+              Git:{
                 img:"git.png",
               },
-             
+              Mocha:{
+                img:"mocha.png",
+              },
               CircleCI:{
                 img:"Circleci.png",
               }, 
