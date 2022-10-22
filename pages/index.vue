@@ -134,7 +134,6 @@ export default {
                 img:"rabbitmq.svg",
               },
           },
-      
         },
       },
       projects:{
