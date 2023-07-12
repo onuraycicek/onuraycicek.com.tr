@@ -134,7 +134,6 @@ export default {
                 img:"rabbitmq.svg",
               },
           },
-      
         },
       },
       projects:{
@@ -143,12 +142,12 @@ export default {
         },
         content:[
           {
-            img:"https://www.kozmonos.com/android-chrome-512x512.png",
+            img:"https://www.kozmonos.com/favicon/apple-touch-icon.png",
             title:"Kozmonos",
             url:"https://kozmonos.com",
           },
           {
-            img:"https://www.kozmonos.com/android-chrome-512x512.png",
+            img:"https://www.kozmonos.com/favicon/apple-touch-icon.png",
             title:"Kozmonos Github",
             url:"https://github.com/kozmonos"
           },
