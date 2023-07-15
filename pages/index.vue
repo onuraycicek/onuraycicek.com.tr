@@ -232,7 +232,6 @@ export default {
             },
           ],
         },
-      },
       projects: [
         {
           img: "kozmonos.com.png",
