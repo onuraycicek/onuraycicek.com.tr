@@ -19,7 +19,9 @@
           ) in skillsAndProjects"
           :key="skillsAndProjectItemName"
         >
-          <h5>{{ skillsAndProjectItem.info.title }}</h5>
+          <h5>
+            {{ skillsAndProjectItem.info.title }}
+          </h5>
           <div :class="camelToSnake(skillsAndProjectItemName) + '-container'">
             <template v-if="skillsAndProjectItemName == 'skills'">
               <div
@@ -232,80 +234,80 @@ export default {
             },
           ],
         },
-        projects: [
-          {
-            img: "kozmonos.com.png",
-            title: "Kurumsal Web Sitesi",
-            description:
-              "Otomasyon ve web yazılımları üreten, yaptığım işlerim kurumsullağını korumak amacıyla açtığım web sitesi.",
-            url: "https://www.kozmonos.com",
-            badges: ["web"],
-            technologies: [
-              "laravel",
-              "tailwindcss",
-              "mysql",
-              "mongodb",
-              "aws-s3",
-            ],
-            color: "#ff6308",
-          },
-          {
-            img: "social.donoteffort.com.png",
-            title: "Sosyal Medya Yönetim Paneli",
-            description:
-              "Birden fazla sosyal medya platformunu tek bir yerde toplayan, sosyal medya platformları arasında paylaşım yapmayı sağlayan web sitesi.",
-            url: "https://social.donoteffort.com",
-            github: "https://github.com/DoNotEffort/donoteffort.com-social",
-            badges: ["web"],
-            technologies: ["vuejs", "nuxtjs"],
-            color: "#9271e7",
-          },
-          {
-            img: "canaycicek.com.tr.png",
-            title: "Beat Projesi",
-            description:
-              "Müzik üreticileri ve müzik severleri bir araya getiren, müzik üreticilerinin ürettiği müzikleri yayınlayabildiği, müzik severlerin ise müzikleri dinleyebileceği web sitesi.",
-            url: "https://www.canaycicek.com.tr",
-            badges: ["web"],
-            technologies: ["vuejs", "nuxtjs", "bootstrap"],
-            color: "#80ff00",
-            dark: true,
-          },
-          {
-            img: "dijitalinmerkezi.com.png",
-            title: "Dijitalin Merkezi",
-            description:
-              "Dijitalde bulunan gruplar, freelance iş ilanları, ücretsiz udemy kurslarını içeren web sitesi.",
-            url: "https://www.dijitalinmerkezi.com",
-            badges: ["web"],
-            technologies: ["vuejs", "nuxtjs"],
-            color: "#7b64fb",
-          },
-          {
-            img: "onuraycicek.com.tr.png",
-            title: "Portfolyo Web Sitesi",
-            description:
-              "Kendi işlerimi ve yaptığım işleri sergilediğim portfolyo web sitesi.",
-            url: "https://www.onuraycicek.com.tr",
-            badges: ["web"],
-            technologies: ["vuejs", "nuxtjs"],
-            color: "white",
-            dark: true,
-          },
-        ],
-        socialMedias: {
-          Twitter: {
-            url: "https://twitter.com/OnurAycicek",
-          },
-          linkedin: {
-            url: "https://www.linkedin.com/in/onur-aycicek",
-          },
-          telegram: {
-            url: "https://t.me/kozmonos",
-          },
-          github: {
-            url: "https://github.com/onuraycicek",
-          },
+      },
+      projects: [
+        {
+          img: "kozmonos.com.png",
+          title: "Kurumsal Web Sitesi",
+          description:
+            "Otomasyon ve web yazılımları üreten, yaptığım işlerim kurumsullağını korumak amacıyla açtığım web sitesi.",
+          url: "https://www.kozmonos.com",
+          badges: ["web"],
+          technologies: [
+            "laravel",
+            "tailwindcss",
+            "mysql",
+            "mongodb",
+            "aws-s3",
+          ],
+          color: "#ff6308",
+        },
+        {
+          img: "social.donoteffort.com.png",
+          title: "Sosyal Medya Yönetim Paneli",
+          description:
+            "Birden fazla sosyal medya platformunu tek bir yerde toplayan, sosyal medya platformları arasında paylaşım yapmayı sağlayan web sitesi.",
+          url: "https://social.donoteffort.com",
+          github: "https://github.com/DoNotEffort/donoteffort.com-social",
+          badges: ["web"],
+          technologies: ["vuejs", "nuxtjs"],
+          color: "#9271e7",
+        },
+        {
+          img: "canaycicek.com.tr.png",
+          title: "Beat Projesi",
+          description:
+            "Müzik üreticileri ve müzik severleri bir araya getiren, müzik üreticilerinin ürettiği müzikleri yayınlayabildiği, müzik severlerin ise müzikleri dinleyebileceği web sitesi.",
+          url: "https://www.canaycicek.com.tr",
+          badges: ["web"],
+          technologies: ["vuejs", "nuxtjs", "bootstrap"],
+          color: "#80ff00",
+          dark: true,
+        },
+        {
+          img: "dijitalinmerkezi.com.png",
+          title: "Dijitalin Merkezi",
+          description:
+            "Dijitalde bulunan gruplar, freelance iş ilanları, ücretsiz udemy kurslarını içeren web sitesi.",
+          url: "https://www.dijitalinmerkezi.com",
+          badges: ["web"],
+          technologies: ["vuejs", "nuxtjs"],
+          color: "#7b64fb",
+        },
+        {
+          img: "onuraycicek.com.tr.png",
+          title: "Portfolyo Web Sitesi",
+          description:
+            "Kendi işlerimi ve yaptığım işleri sergilediğim portfolyo web sitesi.",
+          url: "https://www.onuraycicek.com.tr",
+          badges: ["web"],
+          technologies: ["vuejs", "nuxtjs"],
+          color: "white",
+          dark: true,
+        },
+      ],
+      socialMedias: {
+        Twitter: {
+          url: "https://twitter.com/OnurAycicek",
+        },
+        linkedin: {
+          url: "https://www.linkedin.com/in/onur-aycicek",
+        },
+        telegram: {
+          url: "https://t.me/kozmonos",
+        },
+        github: {
+          url: "https://github.com/onuraycicek",
         },
       },
     };
